@@ -1,0 +1,174 @@
+
+{
+  "basics": {
+    "name": "Grant Siders",
+    "label": "Systems Engineer",
+    "picture": "https://media.licdn.com/dms/image/C4E03AQFkkUN7HX8gYg/profile-displayphoto-shrink_200_200/0?e=1544054400&v=beta&t=3M34hbq_csghRPAbd3QCtpz1EE3NKISuIPvDFzRkSdY",
+    "email": "gmsiders@gmail.com",
+    "phone": "515-441-0454",
+    "website": "http://grantsiders.com",
+    "summary": "Systems engineer specializing in security, virtualization and automation.",
+    "location": {
+		"city": "Des Moines",
+		"region": "Iowa",
+		"country": "US",
+		"code": "50309",
+		"address": ""
+  },
+    "profiles": [
+     {
+		  "label": "Github",
+		  "network": "github",
+		  "url": "https://github.com/apples723",
+		  "icon": "github",
+		  "user": "apples723"
+	},
+		{
+		  "label": "LinkedIn",
+		  "network": "linkedIn",
+		  "icon": "linkedin-in",
+		  "url": "https://linkedin.com/in/gmsiders",
+		  "user": "gmsiders"
+		}
+    ]
+  },
+  "work": [
+    {
+	    "position": "Systems Engineer",
+        "company": "IP Pathways",
+        "summary": "",
+        "startDate": "2017-08-07",
+        "endDate": "",
+        "url": "http://ippathways.com",
+        "keywords": [],
+        "highlights": [
+          "Provide engineering expertise to IP Pathways client base to implement, design and support virtualization, enterprise storage and data center solutions. ",
+          "Microsoft Windows Server - install, configure and support",
+          "VMWare vCenter and ESXi - install, configure and support",
+          "Worked on six month consulting project of VMware NSX deployment ",
+          "Create and maintain highly-detailed infrastructure documentation",
+          "Maintain superior levels of communication and customer service for IP Pathways client base."
+        ]
+	},
+	{
+		"position": "Systems Administrator",
+        "company": "Hy-Vee ",
+        "summary": "",
+        "startDate": "2016-08-01",
+        "endDate": "2016-12-15",
+        "url": "https://hy-vee.com",
+        "keywords": [],
+        "highlights": [
+          "Microsoft Windows Server - install, configure and support",
+		  "Hyper-V - install, configure and support",
+          "Lead implementation of Carbon Black/Bit9 into corporate and retail environment, working closely with Security Team",
+          "Automation with PowerShell",
+          "Act as escalation point for Hy-Vee Support Services team",
+          "Worked on agile based team"
+        ]
+    },
+	{
+        "position": "Network Security Intern",
+        "company": "Principal Financial",
+        "summary": "",
+        "startDate": "2016-05-01",
+        "endDate": "2016-08-01",
+        "url": "https://hy-vee.com",
+        "keywords": [],
+        "highlights": [
+          "Configuration/Management of Firewalls, IPS, LTM, VPN",
+          "Analyzing, troubleshooting and correcting network problems",
+          "Maintaining and administering perimeter security systems."
+        ]
+      }
+	
+  ],
+  
+  "volunteer": [
+	{
+	    "position": "Logistics Cordinator",
+        "company": "Progress Iowa",
+        "summary": "",
+        "startDate": "2018-01",
+        "endDate": "2018-03",
+        "url": "http://progressiowa.org",
+        "keywords": [],
+        "highlights": [
+          "Lead the logistics commitee for the March for Our Lives rally/protest event in Des Moines, IA.",
+		  "Coordinate and plan the logistics for the day of event, volunteers, exhibitors and speakers.",
+		  "3-4k people in attendance"
+        ]
+		
+	},
+	{
+	    "position": "Web Developer",
+        "company": "PrISUm Solar Car",
+        "img": "https://www.prisum.org/thumbs/navbar-logo/images/prisum_logos/prisum-normal.png",
+        "startDate": "2017-06",
+        "endDate": "2018-02",
+        "url": "http://prisum.org",
+        "keywords": [],
+        "highlights": [
+          "Administer and manage Linux webserver",
+		  "Develop and design team's website using Python Django",
+		  "Manage and update the team's website" 
+        ]
+		
+	}
+	],
+  "project": [
+	{
+	    "role": "Web Developer",
+        "title": "PrISUm Solar Car",
+        "img": "https://www.prisum.org/thumbs/navbar-logo/images/prisum_logos/prisum-white.png",
+        "startDate": "2017-06",
+        "endDate": "2018-02",
+        "url": "http://prisum.org",
+        "keywords": [],
+        "highlights": [
+          "Administer and manage Linux webserver",
+		  "Develop and design team's website using Python Django",
+		  "Manage and update the team's website" 
+        ]
+		
+	}
+  ],
+  
+  "education": [
+     {
+        "institution": "Des Moines Area Community College",
+        "startDate": "2014-08-20",
+        "endDate": "2016-05-25",
+        "gpa": "3.8",
+        "curriculum": [],
+        "summary": "",
+        "area": "Information Technology",
+        "studyType": "Associates"
+      }
+  ],
+  "awards": [
+    {
+      "title": "Server 2016 - Microsoft Certified Solutions Associate (MCSA) ",
+      "date": "2018-07-15",
+      "summary": "Server 2016"
+    }
+  ],
+  "skills": [
+	  { 
+		"name": "Windows and Linxux system administration" 
+	  },
+	  {
+		"name": "Virtulization expertise with VMware and Hyper-V"
+	  },
+	  {
+		"name": "Network administration with firewalls, switches and routers"  
+	  },
+	  {
+        "name": "Automation and programing in Python, PowerShell, and Bash"
+      },
+	  {
+		"name": "Web development in PHP and Node.JS"
+	  }
+  ]
+ 
+}

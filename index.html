@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	<title>Grant Siders</title>
+	<!-- CSS  -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<!-- FontAwesome 5 -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<!-- Custom Stylesheet --> 
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+    <div id="portfolioArea"></div>
+ 
+
+    <script id="portfolioTmpl" type="text/template">
+    <div class="navbar-fixed">
+	<nav>
+		<div class="sticky-nav nav-wrapper red">
+		  <a href="#!" class="brand-logo">Grant Siders</a>
+		  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			 <ul class="right hide-on-med-and-down">
+				<li><a href="#about">About</a></li>
+				<li><a href="#work">Work</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#edu">Education</a></li>
+			
+			</ul>
+		</div>
+		
+	</nav>
+	<ul class="sidenav red" id="mobile-demo">
+		<li><a href="#about">About</a></li>
+		<li><a href="#work">Work</a></li>
+		<li><a href="#projects">Projects</a></li>
+		<li><a href="#edu">Education</a></li>
+	</ul>
+         </div>
+	
+		<div class="row">
+			 <div id="intro" class="section black">
+				<div class="container">
+					<div class="row">
+						<div  class="col s12">
+							<h2 class="center header"> "If you love life, don't waste time, 
+									for time is what life is made up of"</h2>
+						</div>
+					</div>
+					<div class="row center">
+						<div class="col s12 m12 l3">
+							<img class="responsive-img" src="https://user-images.githubusercontent.com/26179770/37276853-0092da1a-2609-11e8-9baf-6edbf21afddd.png">
+						</div>
+						<div class="col s12 m12 offset-l1 l8 ">
+							<h5 class="center">Grant Siders <b>ABOUT ME</b></h5>
+							<p>
+								I am Grant Siders a Systems Engineer for IP Pathways.  
+								I am a Full Stack Web Developer and have made many projects using various frameworks and languages.
+								<br />
+								
+							</p>
+							 <a href="/resume" target="_blank" class="btn red waves-effect">Download Resume</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="work" class="col s12">
+				<div class="container"> 
+				<div class="section">
+					<h3 class="center-align"><i class="fas fa-briefcase"></i> Work History</h3>
+					{{#workBool}}
+					{{#work}}
+					<ul class="collapsible popout">
+						<li>
+							<div class="z-depth-2 collapsible-header">
+								<div class="work-details">
+									<div class="work-title">{{position}}</div>
+									<div class="work-company">{{company}}</div>
+								</div>
+								<div class="work-dates">{{startDateMonth}}{{startDateYear}} - {{endDateMonth}}{{endDateYear}}</div>
+							</div>
+							<div class="collapsible-body z-depth-5">
+										{{#workHighlights}}
+										<ul>
+											{{#highlights}}
+											<li class="highlights">{{.}}</li>
+											{{/highlights}}
+										</ul>
+										{{/workHighlights}}
+							</div>
+						</li>
+						{{/work}}
+						{{/workBool}}
+					 </ul>
+        
+					
+					
+						
+				</div>
+				</div>
+			</div>
+			<div id="projects" class="col black s12 z-depth-2">
+				<div class="container">
+				<div class="section">
+					<h3 class="center-align white-text"><i class="fas fa-hands-helping"></i> Volunteer Work</h3>
+					{{#volunteerBool}}
+					{{#volunteer}}
+					
+						<div class="card horizontal z-depth-2">
+						  <div class="card-stacked">
+							<div class="card-content">
+								<div class="vol-card"> 
+								<div class="vol-title">{{position}}</div>
+								<div class="vol-company"> {{company}}</div> 
+								<div class="vol-date">{{startDateMonth}}{{startDateYear}} - {{endDateMonth}}{{endDateYear}}</div>
+								</div>
+								<div class="vol-data">
+									{{#volunterHighlights}}
+									<ul>
+										{{#highlights}}
+										<li class="highlights">{{.}}</li>
+										{{/highlights}}
+									</ul>
+									{{/volunterHighlights}}
+									</div>
+								</div>
+								
+					
+							
+						  </div>
+						</div>
+					  </div>
+					
+				{{/volunteer}}
+				{{/volunteerBool}}
+			</div>
+			</div>
+			<div id="edu" class="col s12 z-depth-2">
+				<div class="container">
+				<div class="section">
+					<h3 class="center-align black-text"><i class="fa fa-graduation-cap"></i> Education</h3>
+					{{#educationBool}}
+					{{#education}}
+					
+						<div class="card horizontal z-depth-2">
+						  <div class="card-stacked">
+							<div class="card-content">
+								<div class="vol-card"> 
+								<div class="vol-title">{{studyType}} in {{area}}</div>
+								<div class="vol-company"> {{institution}}</div> 
+								<div class="vol-date">{{startDateMonth}}{{startDateYear}} - {{endDateMonth}}{{endDateYear}}</div>
+								</div>
+								
+					
+							
+						  </div>
+						</div>
+					  </div>
+					
+				{{/education}}
+				{{/educationBool}}
+			</div>
+			</div>
+		</div>
+		<!-- End Row --> 
+		</div> 
+	
+	<!-- End Template Script --> 
+    </script>
+   
+	 
+	 <!--  Scripts-->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.core.js"></script>
+	<script src="js/init.js"></script>
+	<script src="js/template.js"></script>
+</body>
+</html>

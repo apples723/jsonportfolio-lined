@@ -1,0 +1,75 @@
+/* 
+Grant Siders Portfolio CSS
+Date: 10/3/2018
+
+ */
+ 
+ /*  Global */
+body {
+	background: #FFF;
+}
+.highlights{
+	list-style-type: disc !important;
+}
+/* Typography */
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 70px;
+}
+ 
+/* End Typography */ 
+
+
+/* intro */
+#intro{
+	color: rgba(255,255,255,0.8);
+}
+/* End Intro */ 
+/* Work */
+.collapsible-header {
+  align-content: flex-start;
+  flex-flow: row wrap;
+}
+.collapsible-body{
+	background-color: white;
+}
+.work-details {
+  padding-left: 2em;
+}
+.work-dates {
+  margin-top: 1em;
+  margin-left: auto;
+}
+.work-title {
+  margin-right: auto;
+  font-weight: bold;
+}
+/* Volunteer */
+
+.card{	
+	background-color: white;
+}
+.vol-card{
+	padding-left: 2em;
+}
+.vol-title{ 
+	font-size:20px;
+	margin-right: auto;
+}
+.vol-company{
+	font-size: 15px;
+	font-weight: bold;
+}
+.vol-date{
+	font-size:15px;
+}
+.vol-data{
+	margin-left: 3em;
+}
