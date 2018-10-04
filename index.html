@@ -12,7 +12,7 @@
 	<!-- Custom Stylesheet --> 
 	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body>
+<body onload="$('.tap-target').tapTarget('open')">
     <div id="portfolioArea"></div>
  
 
@@ -21,11 +21,13 @@
 	<nav>
 		<div class="sticky-nav nav-wrapper red">
 		  <a href="#!" class="brand-logo">Grant Siders</a>
+		  <div class="brand-logo center"><i class="fas fa-exclamation-triangle"></i>Site is Still Under Development</div>
+		  
 		  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 			 <ul class="right hide-on-med-and-down">
 				<li><a href="#about">About</a></li>
 				<li><a href="#work">Work</a></li>
-				<li><a href="#projects">Projects</a></li>
+				<li><a href="#projects">Volunteer Work</a></li>
 				<li><a href="#edu">Education</a></li>
 			
 			</ul>
@@ -35,11 +37,10 @@
 	<ul class="sidenav red" id="mobile-demo">
 		<li><a href="#about">About</a></li>
 		<li><a href="#work">Work</a></li>
-		<li><a href="#projects">Projects</a></li>
+		<li><a href="#projects">Volunteer Work</a></li>
 		<li><a href="#edu">Education</a></li>
 	</ul>
          </div>
-	
 		<div class="row">
 			 <div id="intro" class="section black">
 				<div class="container">
