@@ -26,7 +26,7 @@
 			 <ul class="right hide-on-med-and-down">
 				<li><a href="#about">About</a></li>
 				<li><a href="#work">Work</a></li>
-				<li><a href="#projects">Volunteer Work</a></li>
+				<li><a href="#vol">Volunteer Work</a></li>
 				<li><a href="#edu">Education</a></li>
 			
 			</ul>
@@ -36,7 +36,7 @@
 	<ul class="sidenav red" id="mobile-demo">
 		<li><a href="#about">About</a></li>
 		<li><a href="#work">Work</a></li>
-		<li><a href="#projects">Volunteer Work</a></li>
+		<li><a href="#vol">Volunteer Work</a></li>
 		<li><a href="#edu">Education</a></li>
 	</ul>
          </div>
@@ -101,11 +101,12 @@
 				</div>
 				</div>
 			</div>
-			<div id="projects" class="col black s12 z-depth-2">
+			<div id="vol" class="col black s12 z-depth-2">
 				<div class="container">
 				<div class="section">
 					<h3 class="center-align white-text"><i class="fas fa-hands-helping"></i> Volunteer Work</h3>
 					{{#volunteerBool}}
+					
 					{{#volunteer}}
 					
 						<div class="card horizontal z-depth-2">
@@ -137,10 +138,57 @@
 				{{/volunteerBool}}
 			</div>
 			</div>
-			<div id="edu" class="col s12 z-depth-2">
+			<div id="skills" class="col s12">
+				<div class="row">
+				<div class="col s12 m12 l4"> 
+				<h4 class="center-align black-text"><i class="fas fa-brain"></i>Skills</h4>
 				<div class="container">
-				<div class="section">
-					<h3 class="center-align black-text"><i class="fa fa-graduation-cap"></i> Education</h3>
+				<div class="card red z-depth-2">
+						 
+							<div class="card-content">
+				{{#skillsBool}}
+				<div>
+					{{#skills}}
+					<i class="fa fa-check"></i> {{name}}</br>
+					{{/skills}}
+				</div>
+	
+				{{/skillsBool}}
+				</div> 
+				</div>
+				</div>
+				</div>
+				<div class="col s12 m12 l8">
+					<div class="center">
+					<h4 class="center black-text"><i class="fas fa-code"></i>Programing Languages </h4>
+					 <div class="col s6 l3">
+                        <img class="responsive-img" src="img/powershell.png">
+                    </div>
+                    <div class="col s6 l3">
+                        <img class="responsive-img" src="img/python.png">
+                    </div>
+
+				
+                    <div class="col s6 l3">
+                        <img class="responsive-img" src="img/node.png">
+                    </div>
+                    <div class="col s6 l3">
+                        <img class="responsive-img valign-wrapper" src="img/php.png">
+                    </div>
+					</div>
+                </div>
+					
+                    
+					</div>
+                </div>
+				</div> 
+						
+			
+		</div>
+			<div id="edu" class="black col s12">
+				<div class="container">
+					<div class="section">
+					<h3 class="center-align white-text"><i class="fa fa-graduation-cap"></i> Education</h3>
 					{{#educationBool}}
 					{{#education}}
 					
@@ -161,9 +209,10 @@
 					
 				{{/education}}
 				{{/educationBool}}
-			</div>
+				</div>
 			</div>
 		</div>
+		
 		<!-- End Row --> 
 		</div> 
 	

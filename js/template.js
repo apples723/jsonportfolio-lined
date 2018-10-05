@@ -307,6 +307,12 @@ var curyear = cd.getFullYear();
 						});
 					}
 				}
+				if (data.skills) {
+					if (data.skills[0].name) {
+						data.skillsBool = true;
+					}
+				}
+
 				var template = $("#portfolioTmpl").html();
                 var html = Mustache.to_html(template, data);
                 $('#portfolioArea').html(html);

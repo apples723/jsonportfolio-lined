@@ -1,8 +1,7 @@
 /* 
 Grant Siders Portfolio CSS
 Date: 10/3/2018
-
- */
+*/
  
  /*  Global */
 body {
@@ -32,6 +31,13 @@ h1 {
 	color: rgba(255,255,255,0.8);
 }
 /* End Intro */ 
+/*s Skills */
+.skills{
+	padding-left: 2em;
+}
+.skill-card{
+	padding-left: 2em;
+}
 /* Work */
 .collapsible-header {
   align-content: flex-start;
