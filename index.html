@@ -20,7 +20,7 @@
     <div class="navbar-fixed">
 	<nav>
 		<div class="sticky-nav nav-wrapper red">
-		  <a href="#!" class="brand-logo">Grant Siders</a>
+		  <a href="#!" class="brand-logo">{{basics.name}}</a>
 		  
 		  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 			 <ul class="right hide-on-med-and-down">
@@ -45,8 +45,7 @@
 				<div class="container">
 					<div class="row">
 						<div  class="col s12">
-							<h2 class="center header"> "If you love life, don't waste time, 
-									for time is what life is made up of"</h2>
+							<h2 class="center header"> "{{basics.quote}}"</h2>
 						</div>
 					</div>
 					<div class="row center">
@@ -54,10 +53,10 @@
 							<img class="responsive-img" src="img/person.png">
 						</div>
 						<div class="col s12 m12 offset-l1 l8 ">
-							<h5 class="center">Grant Siders <b>ABOUT ME</b></h5>
+							<h5 class="center">{{basics.name}} <b>ABOUT ME</b></h5>
 							<p>
-								I am Grant Siders a Systems Engineer for IP Pathways.  
-								I am a Full Stack Web Developer and have made many projects using various frameworks and languages.
+								  {{basics.intro_line1}}
+								  {{basics.intro_line2}}
 								<br />
 								
 							</p>
@@ -162,18 +161,18 @@
 					<div class="center">
 					<h4 class="center black-text"><i class="fas fa-code"></i>Programing Languages </h4>
 					 <div class="col s6 l3">
-                        <img class="responsive-img" src="img/powershell.png">
+                        <img class="responsive-img" src="{{programing_languages.lang_1}}">
                     </div>
                     <div class="col s6 l3">
-                        <img class="responsive-img" src="img/python.png">
+                        <img class="responsive-img" src="{{programing_languages.lang_2}}">
                     </div>
 
 				
                     <div class="col s6 l3">
-                        <img class="responsive-img" src="img/node.png">
+                        <img class="responsive-img" src="{{programing_languages.lang_3}}">
                     </div>
                     <div class="col s6 l3">
-                        <img class="responsive-img valign-wrapper" src="img/php.png">
+                        <img class="responsive-img valign-wrapper" src="{{programing_languages.lang_4}}">
                     </div>
 					</div>
                 </div>

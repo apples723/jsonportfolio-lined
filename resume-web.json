@@ -7,6 +7,9 @@
     "email": "gmsiders@gmail.com",
     "phone": "515-441-0454",
     "website": "http://grantsiders.com",
+	"quote" : "If you love life, don't waste time, for time is what life is made up of",
+	"intro_line1": "I am Grant Siders a Systems Engineer for IP Pathways.",
+	"intro_line2": "I am a Full Stack Web Developer and have made many projects using various frameworks and languages.",
     "summary": "Systems engineer specializing in security, virtualization and automation.",
     "location": {
 		"city": "Des Moines",
@@ -32,6 +35,12 @@
 		}
     ]
   },
+  "programing_languages":{
+	"lang_1": "img/powershell.png",
+	"lang_2": "img/python.png",
+	"lang_3": "img/node.png",
+	"lang_4": "img/php.png"
+	},
   "work": [
     {
 	    "position": "Systems Engineer",
