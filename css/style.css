@@ -10,6 +10,10 @@ body {
 .highlights{
 	list-style-type: disc !important;
 }
+/* fix horizontal scroll on mobile */
+.row{
+	width: 100%;
+}
 /* Typography */
 p {
   font-family: 'Roboto', sans-serif;
